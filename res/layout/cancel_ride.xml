@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 	xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:orientation="vertical"
+    			android:layout_width="fill_parent"
+			    android:layout_height="fill_parent">
+			    
+    <EditText 	android:layout_height="wrap_content" 
+    			android:layout_width="match_parent" 
+    			android:text="@string/cost_on_cancel" 
+    			android:editable="false"
+    			android:layout_marginBottom="100dip" 
+    			android:id="@+id/cost_on_cancel_field" 
+    			android:cursorVisible="false">
+    </EditText>
+    
+    <Button 	android:layout_height="wrap_content" 
+    			android:layout_width="match_parent" 
+    			android:text="@string/sure_cancel_ride" 
+    			android:id="@+id/sure_cancel_button">
+    </Button>
+
+</LinearLayout>

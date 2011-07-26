@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 	xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:orientation="vertical"
+    			android:layout_width="fill_parent"
+    			android:layout_height="fill_parent">
+    
+    <EditText	android:layout_height="wrap_content" 
+    			android:layout_width="match_parent" 
+    			android:text="@string/driver_approaching" 
+    			android:editable="false" 
+    			android:id="@+id/driver_approaching_field" 
+    			android:cursorVisible="false">
+    </EditText>
+    
+    <Button 	android:layout_height="wrap_content" 
+    			android:layout_width="match_parent" 
+    			android:text="@string/cancel_ride" 
+    			android:id="@+id/cancel_ride_button">
+    </Button>
+    
+</LinearLayout>

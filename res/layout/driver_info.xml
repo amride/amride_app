@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    
+   <TableLayout
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:stretchColumns="*" >
+		<TableRow>
+			<TextView
+				android:id="@+id/cost_label"
+				android:text="@string/cost" />
+			<EditText
+				android:id="@+id/cost_field" 
+				android:width="150sp" 
+				android:editable="false"
+				android:cursorVisible="false" />
+				
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:id="@+id/driver_label"
+				android:text="@string/driver" />
+			<EditText
+				android:id="@+id/driver_field"
+				android:width="150sp" 
+				android:editable="false" 
+				android:cursorVisible="false" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:id="@+id/rating_label"
+				android:text="@string/rating" />
+			<EditText
+				android:id="@+id/rating_field"
+				android:width="150sp" 
+				android:editable="false" 
+				android:cursorVisible="false" />
+		</TableRow>
+		<TableRow>
+			<TextView
+				android:id="@+id/app_time_label"
+				android:text="@string/app_time" />
+			<EditText
+				android:id="@+id/app_time_field"
+				android:width="150sp" 
+				android:editable="false" 
+				android:cursorVisible="false" />
+		</TableRow>
+  	</TableLayout>
+  	
+   	<Button 	android:layout_height="wrap_content" 
+   				android:id="@+id/call_driver_button" 
+   				android:text="@string/get_driver" 
+   				android:layout_width="match_parent">
+   	</Button>
+   	<Button 	android:layout_height="wrap_content" 
+   				android:id="@+id/cancel_button" 
+   				android:text="@string/cancel" 
+   				android:layout_width="match_parent">
+   	</Button>
+</LinearLayout>

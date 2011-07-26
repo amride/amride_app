@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout 	xmlns:android="http://schemas.android.com/apk/res/android"
+    			android:orientation="vertical"
+    			android:layout_width="fill_parent"
+    			android:layout_height="fill_parent">
+    			
+    <TableLayout 
+    			android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:stretchColumns="*">
+		<TableRow >
+			<ImageView   
+				android:id="@+id/amride_icon"
+				android:layout_width="70dip"
+				android:layout_height="43dip" 
+				android:src="@drawable/amride">
+			</ImageView>
+			<Button 
+				android:text="@string/logout"
+				android:id="@+id/logout_button"/>
+		</TableRow>		
+	</TableLayout>			
+	
+	<TextView
+				android:layout_marginTop="150dip"
+				android:layout_marginLeft="55dip" 
+				android:layout_height="wrap_content" 
+				android:layout_width="wrap_content" 
+				android:id="@+id/registration_successful_label" 
+				android:text="@string/registration_successful"
+				android:textSize="20dip">
+	</TextView>
+	
+	<TableLayout
+				android:layout_height="wrap_content"
+				android:layout_width="wrap_content"
+				android:stretchColumns="*" 
+				android:layout_marginTop="220dip">
+	<TableRow>
+				<Button android:text="@string/book_a_driver"
+						android:id="@+id/book_a_driver_button"
+						android:layout_width="90dip"/>
+				<Button android:text="@string/my_account"
+						android:layout_width="90dip"/>
+				<Button android:text="@string/call_us"
+						android:layout_width="90dip"/>
+	
+	</TableRow> 
+	</TableLayout>
+	
+</LinearLayout>	

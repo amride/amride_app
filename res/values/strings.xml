@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, amride_appActivity!</string>
+    <string name="app_name">amride_app</string>
+    <string name="login">Login</string>
+    <string name="signup">SignUp</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="login_form">Login</string>
+    <string name="signup_form">SignUp</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email_address">Email Address</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="credit_card_number">Credit Card Number</string>
+    <string name="cvv2_code">CVV2 Code</string>
+    <string name="submit_source">Pick Me Here</string>
+    <string name="driver">Driver</string>
+    <string name="rating">Rating</string>
+    <string name="app_time">Will Reach In</string>
+    <string name="cost">Cost</string>
+    <string name="get_driver">Get Driver</string>
+    <string name="logout">Logout</string>
+    <string name="cancel">Cancel</string>
+    <string name="driver_approaching">Please wait !! Driver Is Coming Here</string>
+    <string name="cancel_ride">Cancel Your Ride</string>
+    <string name="cost_on_cancel">You Will Be Charged 30% </string>
+    <string name="sure_cancel_ride">Cancel Karde Yaar</string>
+    <string name="new_user">New User</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="sign_in">Sign In To Your Amride Account</string>
+    <string name="registration_successful">Registration Successful</string>
+    <string name="book_a_driver">Book A Driver</string>
+    <string name="my_account">My Account</string>
+    <string name="call_us">Call Us</string>
+</resources>
